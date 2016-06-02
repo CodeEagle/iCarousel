@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16FE3D771CFFDECB006D0454 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FE3D751CFFDECB006D0454 /* iCarousel.h */; };
-		16FE3D781CFFDECB006D0454 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FE3D761CFFDECB006D0454 /* iCarousel.m */; };
+		166C9AB21CFFEA140091C82E /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 166C9AB11CFFEA140091C82E /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		166C9ABA1CFFEA340091C82E /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 166C9AB91CFFEA340091C82E /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16FE3D661CFFDDB5006D0454 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16FE3D6B1CFFDDB5006D0454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16FE3D751CFFDECB006D0454 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		16FE3D761CFFDECB006D0454 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		166C9AAE1CFFEA140091C82E /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		166C9AB11CFFEA140091C82E /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		166C9AB31CFFEA140091C82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166C9AB91CFFEA340091C82E /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16FE3D621CFFDDB5006D0454 /* Frameworks */ = {
+		166C9AAA1CFFEA140091C82E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,28 +29,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16FE3D5C1CFFDDB5006D0454 = {
+		166C9AA41CFFEA140091C82E = {
 			isa = PBXGroup;
 			children = (
-				16FE3D681CFFDDB5006D0454 /* iCarousel */,
-				16FE3D671CFFDDB5006D0454 /* Products */,
+				166C9AB01CFFEA140091C82E /* iCarousel */,
+				166C9AAF1CFFEA140091C82E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		16FE3D671CFFDDB5006D0454 /* Products */ = {
+		166C9AAF1CFFEA140091C82E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16FE3D661CFFDDB5006D0454 /* iCarousel.framework */,
+				166C9AAE1CFFEA140091C82E /* iCarousel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16FE3D681CFFDDB5006D0454 /* iCarousel */ = {
+		166C9AB01CFFEA140091C82E /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				16FE3D751CFFDECB006D0454 /* iCarousel.h */,
-				16FE3D761CFFDECB006D0454 /* iCarousel.m */,
-				16FE3D6B1CFFDDB5006D0454 /* Info.plist */,
+				166C9AB11CFFEA140091C82E /* iCarousel.h */,
+				166C9AB91CFFEA340091C82E /* iCarousel.m */,
+				166C9AB31CFFEA140091C82E /* Info.plist */,
 			);
 			path = iCarousel;
 			sourceTree = "<group>";
@@ -58,25 +58,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16FE3D631CFFDDB5006D0454 /* Headers */ = {
+		166C9AAB1CFFEA140091C82E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FE3D771CFFDECB006D0454 /* iCarousel.h in Headers */,
+				166C9AB21CFFEA140091C82E /* iCarousel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		16FE3D651CFFDDB5006D0454 /* iCarousel */ = {
+		166C9AAD1CFFEA140091C82E /* iCarousel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16FE3D6E1CFFDDB5006D0454 /* Build configuration list for PBXNativeTarget "iCarousel" */;
+			buildConfigurationList = 166C9AB61CFFEA140091C82E /* Build configuration list for PBXNativeTarget "iCarousel" */;
 			buildPhases = (
-				16FE3D611CFFDDB5006D0454 /* Sources */,
-				16FE3D621CFFDDB5006D0454 /* Frameworks */,
-				16FE3D631CFFDDB5006D0454 /* Headers */,
-				16FE3D641CFFDDB5006D0454 /* Resources */,
+				166C9AA91CFFEA140091C82E /* Sources */,
+				166C9AAA1CFFEA140091C82E /* Frameworks */,
+				166C9AAB1CFFEA140091C82E /* Headers */,
+				166C9AAC1CFFEA140091C82E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,42 +84,42 @@
 			);
 			name = iCarousel;
 			productName = iCarousel;
-			productReference = 16FE3D661CFFDDB5006D0454 /* iCarousel.framework */;
+			productReference = 166C9AAE1CFFEA140091C82E /* iCarousel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		16FE3D5D1CFFDDB5006D0454 /* Project object */ = {
+		166C9AA51CFFEA140091C82E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = SelfStudio;
 				TargetAttributes = {
-					16FE3D651CFFDDB5006D0454 = {
+					166C9AAD1CFFEA140091C82E = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 16FE3D601CFFDDB5006D0454 /* Build configuration list for PBXProject "iCarousel" */;
+			buildConfigurationList = 166C9AA81CFFEA140091C82E /* Build configuration list for PBXProject "iCarousel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 16FE3D5C1CFFDDB5006D0454;
-			productRefGroup = 16FE3D671CFFDDB5006D0454 /* Products */;
+			mainGroup = 166C9AA41CFFEA140091C82E;
+			productRefGroup = 166C9AAF1CFFEA140091C82E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16FE3D651CFFDDB5006D0454 /* iCarousel */,
+				166C9AAD1CFFEA140091C82E /* iCarousel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16FE3D641CFFDDB5006D0454 /* Resources */ = {
+		166C9AAC1CFFEA140091C82E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,18 +129,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16FE3D611CFFDDB5006D0454 /* Sources */ = {
+		166C9AA91CFFEA140091C82E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FE3D781CFFDECB006D0454 /* iCarousel.m in Sources */,
+				166C9ABA1CFFEA340091C82E /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		16FE3D6C1CFFDDB5006D0454 /* Debug */ = {
+		166C9AB41CFFEA140091C82E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		16FE3D6D1CFFDDB5006D0454 /* Release */ = {
+		166C9AB51CFFEA140091C82E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +230,7 @@
 			};
 			name = Release;
 		};
-		16FE3D6F1CFFDDB5006D0454 /* Debug */ = {
+		166C9AB71CFFEA140091C82E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -247,7 +247,7 @@
 			};
 			name = Debug;
 		};
-		16FE3D701CFFDDB5006D0454 /* Release */ = {
+		166C9AB81CFFEA140091C82E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -267,25 +267,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16FE3D601CFFDDB5006D0454 /* Build configuration list for PBXProject "iCarousel" */ = {
+		166C9AA81CFFEA140091C82E /* Build configuration list for PBXProject "iCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16FE3D6C1CFFDDB5006D0454 /* Debug */,
-				16FE3D6D1CFFDDB5006D0454 /* Release */,
+				166C9AB41CFFEA140091C82E /* Debug */,
+				166C9AB51CFFEA140091C82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16FE3D6E1CFFDDB5006D0454 /* Build configuration list for PBXNativeTarget "iCarousel" */ = {
+		166C9AB61CFFEA140091C82E /* Build configuration list for PBXNativeTarget "iCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16FE3D6F1CFFDDB5006D0454 /* Debug */,
-				16FE3D701CFFDDB5006D0454 /* Release */,
+				166C9AB71CFFEA140091C82E /* Debug */,
+				166C9AB81CFFEA140091C82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 16FE3D5D1CFFDDB5006D0454 /* Project object */;
+	rootObject = 166C9AA51CFFEA140091C82E /* Project object */;
 }

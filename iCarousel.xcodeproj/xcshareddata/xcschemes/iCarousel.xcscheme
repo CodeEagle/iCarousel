@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16FE3D651CFFDDB5006D0454"
+               BlueprintIdentifier = "166C9AAD1CFFEA140091C82E"
                BuildableName = "iCarousel.framework"
                BlueprintName = "iCarousel"
                ReferencedContainer = "container:iCarousel.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16FE3D651CFFDDB5006D0454"
+            BlueprintIdentifier = "166C9AAD1CFFEA140091C82E"
             BuildableName = "iCarousel.framework"
             BlueprintName = "iCarousel"
             ReferencedContainer = "container:iCarousel.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16FE3D651CFFDDB5006D0454"
+            BlueprintIdentifier = "166C9AAD1CFFEA140091C82E"
             BuildableName = "iCarousel.framework"
             BlueprintName = "iCarousel"
             ReferencedContainer = "container:iCarousel.xcodeproj">
